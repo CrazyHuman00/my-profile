@@ -1,0 +1,44 @@
+.text-center {
+  text-align: center;
+}
+
+.profile-container {
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%; /* 横長にするために幅を増やす */
+  margin: 20px auto;
+  text-align: left; /* 左揃えに変更 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.profile-details {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-details strong {
+  color: #000000;
+}
+
+.skills-wrapper {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.skills-image {
+  display: block;
+  height: auto;
+  margin-top: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.zen-maru-gothic-regular {
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+}

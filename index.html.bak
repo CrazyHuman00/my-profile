@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>自己紹介</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="centered">
+      <h1>朝倉滉人の自己紹介ページ</h1>
+    </div>
+    <h2 class="section-heading">自己紹介</h2>
+    <div class="centered">
+      <p><strong>名前: 朝倉滉人<br>
+        </strong></p>
+      <p><strong>出身:京都府京都市</strong></p>
+      <p><strong>学部: 情報理工学部情報理工学科</strong></p>
+    </div>
+    <h2 class="section-heading">好きなこと</h2>
+    <div class="centered">料理、イラスト、プログラミングにはまってます</div>
+    <h2 class="section-heading">好きなテレビ番組</h2>
+    <div class="centered">最近はあまり見れてないですけど、アニメをよく見ます。<br>
+    </div>
+    <h2 class="section-heading">居る場所</h2>
+    <div class="centered">
+      <p>図書館か14号館の自習室か部室か家かのどこかにいます。</p>
+    </div>
+    <h2 class="section-heading">自由項目</h2>
+    <div class="centered">
+      <p>好きな料理はカレーです。　理由はスパイスとかにこだわれるからです。あと、早いからです。 </p>
+    </div>
+    <h2 class="section-heading">一言</h2>
+    <div class="centered">不器用な奴なので失敗が多いかもしれませんが、懸命に頑張るのでよろしくお願いします。<br>
+    </div>
+  </body>
+</html>
