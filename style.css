@@ -1,31 +1,53 @@
-.heading06 {
-	position: relative;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-size: 26px;
-	text-align: center;
+a:link {
+  color: #ffffff; /* リンクの通常の状態の色を白に */
 }
 
-.heading06::before {
+a:visited {
+  color: #ffffff; /* 訪問済みリンクの色を白に */
+}
+
+a:hover {
+  color: #cccccc; /* ホバー時の色を少し変える（任意） */
+}
+
+a:active {
+  color: #ffffff; /* クリック中のリンクの色も白に */
+}
+
+body {
+  background: #242424;
+}
+
+.heading {
+	position: relative;
+	padding-top: 50px;
+	font-size: 26px;
+	text-align: center;
+	color: #ffffff; /* テキストを白に */
+}
+
+.heading::before {
 	content: attr(data-en);
 	position: absolute;
 	top: -20px;
 	left: 50%;
 	transform: translateX(-50%);
-	color: rgba(25, 0, 212, 0.2);
+	color: rgba(255, 255, 255, 0.2); /* 色を白の半透明に */
 	font-size: 80px;
 	font-style: italic;
 }
 
 .profile-container {
-  background-color: #f4f4f9;
+  background-color: #242424; /* 背景色を暗めの黒に */
   border-radius: 10px;
   padding: 20px;
-  width: 80%; /* 横長にするために幅を増やす */
+  width: 60%; 
   margin: 20px auto;
-  text-align: left; /* 左揃えに変更 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* シャドウを白に変更 */
   overflow-x: auto;
+  letter-spacing: 0.1em;
+  line-height: 2;
 }
 
 .profile-details {
@@ -34,7 +56,12 @@
 }
 
 .profile-details strong {
-  color: #000000;
+  color: #ffffff; /* テキスト色を白に */
+}
+
+.profile-title {
+  font-size: 20px;
+  color: #ffffff; /* テキスト色を白に */
 }
 
 .skills-wrapper {
@@ -50,10 +77,12 @@
 
 .text-center {
   text-align: center;
+  color: #ffffff; /* テキスト色を白に */
 }
 
 .zen-maru-gothic-regular {
   font-family: "Zen Maru Gothic", serif;
   font-weight: 400;
   font-style: normal;
+  color: #ffffff; /* テキスト色を白に */
 }
